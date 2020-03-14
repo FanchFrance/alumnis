@@ -1,0 +1,61 @@
+
+  977  mkdir alumnis
+  978  cd alumnis/
+  979  touch alumnis
+  980  nano alumnis
+  981  cat alumnis
+  982  grep PHP France 2019 > php_france_2019.csv
+  983  ls
+  984  rm php_france_2019.csv 
+  985  cat alumnis 
+  986  grep alumnis 
+  987  grep alumnis 2019
+  988  grep 2019 France PHP alumnis > php_france_2019.csv
+  989  grep "2019;France;PHP" alumnis > php_france_2019.csv
+  990  ls
+  991  nano php_france_2019.csv 
+  992  cat php_france_2019.csv 
+  993  grep "2019;France;PHP" alumnis >> php_france_2019.csv
+  994  ls
+  995  cat php_france_2019.csv 
+  996  cat alu
+  997  cat alumnis 
+  998  grep "2019" < alumnis >2019.csv
+  999  ls
+ 1000  nano 2019.csv
+ 1001  rm 2019.csv 
+ 1002  grep "2019;France;PHP" < alumnis > php_france_2019.csv
+ 1003  nano php_france_2019.csv 
+ 1004  ls
+ 1005  rm php_france_2019.csv 
+ 1006  cat alumnis 
+ 1007  grep France alumnis> France.csv
+ 1008  ls
+ 1009  nano France.csv 
+ 1010  cat France.csv 
+ 1011  grep 2019 France.csv > France_2019.csv
+ 1012  cat France_2019.csv 
+ 1013  grep PHP France_2019.csv > php_france_2019.csv
+ 1014  cat php_france_2019.csv 
+ 1015  ls
+ 1016  rm France_2019.csv France.csv 
+ 1017  ls
+ 1018  grep Toulouse alumnis > Toulouse.csv
+ 1019  cat Toulouse.csv 
+ 1020  grep Biarritz alumnis > Biarritz.csv
+ 1021  cat Biarritz.csv 
+ 1022  cat Toulouse.csv Biarritz.csv | sort -u > Toulouse_Biarritz.csv
+ 1023  cat Toulouse_Biarritz.csv 
+ 1024  grep JavaScript Toulouse_Biarritz.csv > javascript_biarritz_toulouse.csv
+ 1025  cat javascript_biarritz_toulouse.csv 
+ 1026  history tail
+ 1027  ls
+ 1028  history | grep "php_france_2019.csv" 
+ 1029  tail php_france_2019.csv 
+ 1030  tail javascript_biarritz_toulouse.csv 
+ 1031  history
+ 1032  ls
+ 1033  alumnis
+ 1034  cd alumnis/
+ 1035  ls
+ 1036  history |  tail -80 > history.txt
